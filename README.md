@@ -86,7 +86,7 @@ The tutorial ends here
 ## Checklists
 
 ### A list of things that might be needed:
-- something smart to say on the home page (ie here), maybe an introduction of the group?
+- something smart to say on the home page, maybe an introduction of the group?
 - project page: some more description for each of the cases might be useful
 - publication: would this be required? - happy to do it, shouldn't be too hard, but could just link to google scholar?
 - people: picture + short bio?
