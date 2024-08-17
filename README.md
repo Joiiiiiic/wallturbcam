@@ -83,9 +83,7 @@ File found in `content/publication/_index.md`.
 The tutorial ends here
 ---
 
-
-
-
+---
 
 ## Checklists
 
