@@ -44,7 +44,7 @@ Once the website is ready to be published, run the following code:
 ```bash
 hugo
 ```
-This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is currently in this folder first before generating anything new. 
+This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is in the folder first before running the code. 
 
 Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
 
