@@ -80,6 +80,29 @@ File found in `content/people/_index.md`. The structure is (hopefully) very intu
 
 File found in `content/publication/_index.md`. 
 
+The tutorial ends here
+---
+
+## Checklists
+
+### A list of things that might be needed:
+- something smart to say on the home page (ie here), maybe an introduction of the group?
+- project page: some more description for each of the cases might be useful
+- publication: would this be required? - happy to do it, shouldn't be too hard, but could just link to google scholar?
+- people: picture + short bio?
+- logo or whatever that could go on the top left corner & favicon (which is a smiley face currently...)
+- add copyright at the bottom of the site
+- stupid question - what is the name of the group? Wall turbulence, I assume from the name of the website? 
+- Is there anything else that is needed?
+- Check youtube channel, change channel name, video name etc. Videos are currently unlisted ie. cannot be found through search, can only access with link
+
+### A list of things that Joy will fix at some point:
+- in short all pages looks bad (all suggestions / advice welcomed) - need to rethink the theme / template used, especially home page
+- project page: maybe make background of each button to a relavant picture? not sure if it would look good, but will try
+- dropdown menu for project page maybe 
+- work out how to wrap text around image
+- access denied page one website
+- menu for smaller devices (ie phone)
 
 
 
