@@ -80,7 +80,8 @@ File found in `content/people/_index.md`. The structure is (hopefully) very intu
 
 File found in `content/publication/_index.md`. 
 
-The tutorial ends here
+## The tutorial ends here
+
 ---
 
 ---
