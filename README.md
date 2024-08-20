@@ -8,7 +8,9 @@ For details about the Youtube channel where the videos are uploaded, contact Joy
 
 ## Installation
 
-To be able to edit the website you will need to install a few things: **!!!! need to check !!!!!!!**
+If you are only making small changes to the website (hence don't necessarily need to view the actual webpage), skip this "installation" section and the later "testing and uploading the website" section. Once you have made any changes, let Joy know and she will do the uploading. 
+
+If you wish to preview and/or upload the website yourself, you will need to install a few things: **!!!! need to check !!!!!!!**
 
 - Hugo
 - Go (the language)
