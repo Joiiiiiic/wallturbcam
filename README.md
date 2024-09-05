@@ -2,21 +2,13 @@
 
 The website is built using Hugo, it may look a bit scary but it's not I promise. Essentially what Hugo does is convert the files we write into HTML so they can be uploaded to the the website. 
 
-This tutorial will teach you how to update the contents but if you need to change other things like theme and layout, contact Joy (jc2392). She will cry but she will do it. If she doesn't do it, annoy her until she does. 
+This tutorial will teach you how to update the contents but if you need to change other things like theme and layout, contact Joy (jc2392). If she doesn't do it, annoy her until she does. 
 
 For details about the Youtube channel where the videos are uploaded, contact Joy directly. 
 
-## Installation
+The first part of the tutorial will teach you how to add contents to the website, but you will not be able to view it until Joy (hopefully) updates it. If you wish to view it or do the updating yourself, instructions can be found in the second part of this document, otherwise feel free to skip it. 
 
-If you are only making small changes to the website (hence don't necessarily need to view the actual webpage), skip this "installation" section and the later "testing and uploading the website" section. Once you have made any changes, let Joy know and she will do the uploading. 
-
-If you wish to preview and/or upload the website yourself, you will need to install a few things: **!!!! need to check !!!!!!!**
-
-- Hugo
-- Go (the language)
-- CSS
-
-There are plenty of websites that tell you how to do it. 
+If you have any suggestions/advice for the aesthetics, structure or anything else about the website, feel free to contact Joy. She will be eternally grateful for you help. (She is fully aware of how bad it currently looks so will not take any offence in your comments.)
 
 ## Basics
 
@@ -30,27 +22,6 @@ reasonably intuitive, so find the corresponding page you want to edit. This tuto
 The static folder includes all the files that stay as it is when Hugo converts others into HTML, in our case this is mainly images. All new images should be added here. 
 
 If there is anything you need to do that might involve changing any other folder (apart from those mentioned below), contact Joy. 
-
-### Testing and uploading the website
-
-To test the site, run the following code in the root directory of the website: 
-
-```bash
-hugo server
-```
-
-You can then view the website at `http://localhost:1313/`. I would recommend turning on autosave on your text editor (eg. VS code), the website will update automatically whenever you change anything. Otherwise, it will update when you save a file. If anything weird appears, try rerunning the code. 
-
-Once the website is ready to be published, run the following code: 
-
-```bash
-hugo
-```
-This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is in the folder first before running the code. 
-
-Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
-
-Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
 ## Changing specific contents
 
@@ -81,6 +52,60 @@ File found in `content/people/_index.md`. The structure is (hopefully) very intu
 ### Edit "publication" page
 
 File found in `content/publication/_index.md`. 
+
+## View and update edits to the website yourself
+
+### Installation
+
+If you wish to preview and/or upload the website yourself, you will need to install a few things: **!!!! need to check !!!!!!!**
+
+- Hugo
+- Go (the language)
+- CSS
+
+There are plenty of websites that tell you how to do it. 
+
+### Testing and uploading the website
+
+To test the site, run the following code in the root directory of the website: 
+
+```bash
+hugo server
+```
+
+You can then view the website at `http://localhost:1313/`. I would recommend turning on autosave on your text editor (eg. VS code), the website will update automatically whenever you change anything. Otherwise, it will update when you save a file. If anything weird appears, try rerunning the code. 
+
+Once the website is ready to be published, run the following code: 
+
+```bash
+hugo
+```
+This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is in the folder first before running the code. 
+
+Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
+
+Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
+
+### Testing and uploading the website
+
+To test the site, run the following code in the root directory of the website: 
+
+```bash
+hugo server
+```
+
+You can then view the website at `http://localhost:1313/`. I would recommend turning on autosave on your text editor (eg. VS code), the website will update automatically whenever you change anything. Otherwise, it will update when you save a file. If anything weird appears, try rerunning the code. 
+
+Once the website is ready to be published, run the following code: 
+
+```bash
+hugo
+```
+This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is in the folder first before running the code. 
+
+Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
+
+Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
 ## The tutorial ends here
 
