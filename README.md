@@ -86,26 +86,6 @@ Once it is done (should be very very quick - one of the benefits of using Hugo a
 
 Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
-### Testing and uploading the website
-
-To test the site, run the following code in the root directory of the website: 
-
-```bash
-hugo server
-```
-
-You can then view the website at `http://localhost:1313/`. I would recommend turning on autosave on your text editor (eg. VS code), the website will update automatically whenever you change anything. Otherwise, it will update when you save a file. If anything weird appears, try rerunning the code. 
-
-Once the website is ready to be published, run the following code: 
-
-```bash
-hugo
-```
-This generates HTML (and other relevant) files in the `public` directory. It is recommended that you delete everything that is in the folder first before running the code. 
-
-Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
-
-Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
 ## The tutorial ends here
 
