@@ -17,7 +17,7 @@
       })
     }
   </script>
-  {{ end }}
+  {{ end }} -->
   <script>
     function toggleNav() {
       var hamburger = document.getElementById("hamburgerbtn");
@@ -36,12 +36,12 @@
       document.documentElement.scrollTop = 0;
     });
   </script>
-  {{ if .Site.Params.googleFonts }}
+  <!-- {{ if .Site.Params.googleFonts }}
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
   {{ else }}
   <link href='{{ "css/webfonts.min.css" | relURL }}' rel="stylesheet" />
-  {{ end }}
-  <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
+  {{ end }} 
+   <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
     <div class="items-center text-xl text-grey-900 mr-6">
       {{ .Site.Params.site.name }}
     </div>
