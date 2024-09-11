@@ -5,7 +5,8 @@ draft: false
 featured: true
 weight: 3
 description: some discription? with pictures 
-image: "/img/people/person1.jpg"
+image: "/img/research/canopy.png"
+text_color: "white" 
 ---
 
 ### Rectangular canopies

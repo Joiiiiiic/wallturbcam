@@ -11,11 +11,27 @@
     </div>
 </a> -->
 
-<a href="{{ .Permalink }}">
-    <div class="summary border p-3" style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 200px;">
-        <h2 class="text-3xl text-white">
+<!-- <a href="{{ .Permalink }}">
+    <div class="summary border p-3" style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 200px;filter: brightness(50%);">
+        <h2 class="text-3xl {{ if eq .Params.text_color "white" }}text-white{{ else }}text-black{{ end }}">
             {{ .Title }}
         </h2>
-        <p class="text-white">{{ .Description }}</p>
+        <p class="{{ if eq .Params.text_color "white" }}text-white{{ else }}text-black{{ end }}">
+            {{ .Description }}
+        </p>
+    </div>
+</a> -->
+
+<a href="{{ .Permalink }}">
+    <div class="summary-container hover:opacity-80">
+        <div class="summary-background" style="background-image: url('{{ .Params.image }}');"></div>
+        <div class="summary-content">
+            <h2 class="text-3xl {{ if eq .Params.text_color "white" }}text-white{{ else }}text-black{{ end }}">
+                {{ .Title }}
+            </h2>
+            <p class="{{ if eq .Params.text_color "white" }}text-white{{ else }}text-black{{ end }}">
+                {{ .Description }}
+            </p>
+        </div>
     </div>
 </a>

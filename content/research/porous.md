@@ -5,6 +5,8 @@ draft: false
 featured: true
 weight: 2
 description: some discription?
+image: "/img/research/porous.png"
+text_color: "white" 
 ---
 
 {{< youtube LGsTncWt4lk >}}
