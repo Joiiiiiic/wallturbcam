@@ -1,0 +1,79 @@
+{{ define "meta_tags" }}
+
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="{{ .Title }}">
+
+{{ if .Params.image }}
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{ end }}
+{{ else }}
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image | absURL }}">
+{{ end }}
+
+{{- if .Description }}
+<meta name="description" content="{{ .Description }}" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="twitter:description" content="{{ .Description }}" />
+{{- else if .Summary }}
+<meta name="description" content="{{ .Summary }}" />
+<meta property="og:description" content="{{ .Summary }}" />
+<meta property="twitter:description" content="{{ .Summary }}" />
+{{- else if .Site.Params.description }}
+<meta name="description" content="{{ .Site.Params.description }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<meta property="twitter:description" content="{{ .Site.Params.description }}" />
+{{- end }}
+
+{{ end }}
+
+{{ define "main" }}
+<div class="mx-auto my-10 max-w-6xl">
+  <div class="mx-3 col-span-3 lg:col-span-2 px-2">
+    <h1 class="title text-5xl mb-4">{{.Params.title1}}</h1>
+    {{ range .Params.current }}
+      <section class="section-sm mb-4">
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-between" style="display: flex; gap: 20px;"> 
+            
+            <div class="order-md-2 col-md-5 col-lg-6 mb-6" style="min-width: 300px;">
+              <img src="{{ .image }}" alt="{{ .title }}" style="width: 300px; height: 350px; object-fit: cover;">
+            </div>
+
+            <div class="order-md-1 col-md-7 col-lg-6" >
+              <h1 class="title text-3xl mb-4">{{ .name | markdownify }}</h1>
+              <p class="text-base mb-3 text-gray-600">{{ .title }}</p>
+              <p class="text-sm text-gray-600">{{ .email }}</p>
+              <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">{{ .content | markdownify }}</div>
+              <div class="mt-2">
+                <a href="{{ .googleScholarURL }}" class="text-blue-600 hover:underline">Google Scholar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+    <!-- Render additional static content from the content file -->
+    <div class="static-content prose md:prose-lg lg:prose-xl max-w-none py-1">
+      {{ .Content }}
+    </div>
+
+    <h1 class="title text-5xl my-4">{{.Params.title2}}</h1>
+    {{ range .Params.past }}
+      <div class="order-md-1 col-md-7 col-lg-6" >
+        <h1 class="title text-3xl mb-4">{{ .name | markdownify }}</h1>
+        <p class="text-base mb-3 text-gray-600">{{ .title }}</p>
+        <p class="text-sm text-gray-600">{{ .email }}</p>
+        <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">{{ .content | markdownify }}</div>
+        <div class="mt-2">
+          <a href="{{ .googleScholarURL }}" class="text-blue-600 hover:underline">Google Scholar</a>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
