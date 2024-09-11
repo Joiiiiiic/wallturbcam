@@ -108,7 +108,6 @@ Note: running `hugo server` also generates things in the `public` directory, but
 
 ### A list of things that Joy will fix at some point:
 - in short all pages looks bad (all suggestions / advice welcomed) - need to rethink the theme / template used, especially home page
-- project page: maybe make background of each button to a relavant picture? not sure if it would look good, but will try
 - dropdown menu for project page maybe 
 - work out how to wrap text around image
 - access denied page on website
