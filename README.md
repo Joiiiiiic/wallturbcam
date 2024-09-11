@@ -47,7 +47,7 @@ The page is in markdown format, see files in `content/random_pages` for referenc
 
 ### Edit "people" page
 
-File found in `content/people/_index.md`. The structure is (hopefully) very intuitive, add/delete/edit entries as required. 
+File found in `content/people/_index.md`. The structure is (hopefully) very intuitive, add/delete/edit entries as required. Images should ideally be of the aspect ratio 3/4, otherwise it will be cropped
 
 ### Edit "publication" page
 
