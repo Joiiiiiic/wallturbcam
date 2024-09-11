@@ -1,4 +1,4 @@
-<a href="{{ .Permalink }}">
+<!-- <a href="{{ .Permalink }}">
     <div class="summary border p-3">
         <h2 class="text-3xl">
             {{ .Title }}
@@ -8,5 +8,14 @@
         {{ with .Params.image }}
             <img src="{{ . }}" alt="{{ $.Title }}" style="width: 100%; object-fit: cover; aspect-ratio: 3/2;">
         {{ end }}
+    </div>
+</a> -->
+
+<a href="{{ .Permalink }}">
+    <div class="summary border p-3" style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 200px;">
+        <h2 class="text-3xl text-white">
+            {{ .Title }}
+        </h2>
+        <p class="text-white">{{ .Description }}</p>
     </div>
 </a>
