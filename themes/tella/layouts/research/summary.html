@@ -23,7 +23,7 @@
 </a> -->
 
 <a href="{{ .Permalink }}">
-    <div class="summary-container hover:opacity-80">
+    <div class="summary-container duration-300 transform h-full hover:-translate-y-1 hover:shadow-lg">
         <div class="summary-background" style="background-image: url('{{ .Params.image }}');"></div>
         <div class="summary-content">
             <h2 class="text-3xl {{ if eq .Params.text_color "white" }}text-white{{ else }}text-black{{ end }}">
