@@ -4,5 +4,9 @@
             {{ .Title }}
         </h2>
         <p>{{ .Description }}</p>
+        
+        {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}" style="width: 100%; object-fit: cover; aspect-ratio: 3/2;">
+        {{ end }}
     </div>
 </a>
