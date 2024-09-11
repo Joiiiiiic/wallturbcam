@@ -41,7 +41,7 @@ File found in `content/_index.md`.
 
 The files for corresponding pages can be found in `content/project/`. Edit the corresponding file. Add a new file by duplicating an existing one then edit. 
 
-For content in the front matter (the one at the top between two lines of `---`), description refers to the text that shows on the main project page, weight is the order each page is arranged on the main page (1 being the one highest up). 
+For content in the front matter (the one at the top between two lines of `---`), description refers to the text that shows on the main project page, weight is the order each page is arranged on the main page (1 being the one highest up). Image refers to the background image displayed in the main "research" page. 
 
 The page is in markdown format, see files in `content/random_pages` for reference on how to display different fonts, tables etc.
 
