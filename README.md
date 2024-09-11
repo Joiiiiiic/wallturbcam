@@ -111,10 +111,4 @@ Note: running `hugo server` also generates things in the `public` directory, but
 - project page: maybe make background of each button to a relavant picture? not sure if it would look good, but will try
 - dropdown menu for project page maybe 
 - work out how to wrap text around image
-- access denied page one website
-- menu for smaller devices (ie phone)
-
-
-
-
-
+- access denied page on website
