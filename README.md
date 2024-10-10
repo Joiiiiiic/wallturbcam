@@ -105,8 +105,3 @@ Note: running `hugo server` also generates things in the `public` directory, but
 - stupid question - what is the name of the group? Wall turbulence, I assume from the name of the website? 
 - Is there anything else that is needed?
 - Check youtube channel, change channel name, video name etc. Videos are currently unlisted ie. cannot be found through search, can only access with link
-
-### A list of things that Joy will fix at some point:
-- dropdown menu for project page maybe - probably not going to happen to be honest, but if it make everything look better, will be happy to reconsider
-- work out how to wrap text around image
-- access denied page on website - no idea why, especially because it goes away with refreshing, will find someone to ask at some point
