@@ -84,6 +84,8 @@ This generates HTML (and other relevant) files in the `public` directory. It is 
 
 Once it is done (should be very very quick - one of the benefits of using Hugo and those alike), copy everything in the folder to `wallturbcam/public_html` on the SRCF server and the website should show in a few minutes. 
 
+Note: SRCF has a server that you can ssh into, the folder can be found in it. It is something along the lines of `ssh crsid@shell.srcf.net`. Check SRCF documentation for details. 
+
 Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
 
