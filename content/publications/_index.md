@@ -39,6 +39,11 @@ entries:
     year: "2023"
     details: "Journal of Fluid Mechanics 973, A31"
 
+  - title: "Reorganisation of turbulence by large and spanwise-varying riblets"
+    author: "Sebastian Endrikat, Ryan Newton, Davide Modesti, Ricardo García-Mayoral, Nick Hutchins, Daniel Chung"
+    link: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/reorganisation-of-turbulence-by-large-and-spanwisevarying-riblets/EC1C36DC8A0D7238456E2BD145DD7A2C"
+    year: "2022"
+    details: "Journal of Fluid Mechanics 952, A27"
+
 
 ---
-Put publication list here, or just a button to link to google scholar?

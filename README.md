@@ -89,7 +89,7 @@ Note: SRCF has a server that you can ssh into, the folder can be found in it. It
 Note: running `hugo server` also generates things in the `public` directory, but do not upload that to the website. 
 
 
-## The tutorial ends here
+## Here endeth the tutorial
 
 ---
 
