@@ -1,18 +1,20 @@
 [
   {
-    "title": "Q criterion for flow over sparse canopies",
     "image": "img/slide/1.png"
   },
   {
-    "title": "Streamwise velocity for flow over permeable T-shaped canopies",
     "image": "img/slide/2.png"
   },
   {
-    "title": "Q criterion for flow over porous substrates",
     "image": "img/slide/3.png"
   },
   {
-    "title": "Reynolds shear stress for flow over cylinderical canopies",
     "image": "img/slide/4.png"
+  },
+  {
+    "image": "img/slide/5.png"
+  },
+  {
+    "image": "img/slide/6.png"
   }
 ]

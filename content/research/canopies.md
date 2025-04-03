@@ -17,4 +17,3 @@ A few lines to explain a bit more maybe?
 ### T-shaped canopies
 {{< youtube nCYVNX2UfPs >}}
 
-blah blah
